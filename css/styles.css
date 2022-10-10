@@ -42,3 +42,22 @@ nav {
     color: black;
 }
 
+.splash {
+    position: relative;
+}
+.splash-img {
+    background-size: 99%;
+    background-image: url(../backg-img-activities.jpeg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.splash-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    font-size: 3rem;
+}
+
