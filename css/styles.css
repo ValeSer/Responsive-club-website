@@ -13,3 +13,11 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+nav {
+    background-color:lightgray;
+    text-align: right;
+    padding: 1.2rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
