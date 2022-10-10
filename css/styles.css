@@ -1,0 +1,7 @@
+header {
+    display: flex;
+    background-color: grey;
+    height: 3rem;
+    padding: 1rem;
+}
+
