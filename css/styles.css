@@ -5,3 +5,11 @@ header {
     padding: 1rem;
 }
 
+.logo {
+    background-image: url(../logo.freetime.png);
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
