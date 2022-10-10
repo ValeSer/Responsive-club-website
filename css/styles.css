@@ -1,6 +1,5 @@
 header {
-    display: flex;
-    background-color: grey;
+    background-color: blanchedalmond;
     height: 3rem;
     padding: 1rem;
 }
@@ -15,9 +14,31 @@ header {
 }
 
 nav {
-    background-color:lightgray;
     text-align: right;
-    padding: 1.2rem 0.75rem;
+    align-items: center;
     display: flex;
     justify-content: space-between;
+
 }
+
+
+.round-button-wrapper {
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: #020442;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.round-button-text, .link{
+    line-height: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    color: white;
+}
+
+.link {
+    color: black;
+}
+
