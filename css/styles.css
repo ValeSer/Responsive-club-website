@@ -55,14 +55,18 @@ nav {
 }
 
 .splash-text {
+    text-shadow: 0 0 black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 0;
-    left: 10%;
+    top: 30%;
     font-size: 2rem;
-    background-color: aliceblue;
+    background-color: #f0f8ffaa;
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: darkslategray;
 }
 
 .company-name-container {
@@ -79,4 +83,12 @@ nav {
 .mission-title {
     font-family: fantasy;
     text-align: center;
+    font-size: 2rem;
+}
+
+.mission-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    left: 50%;
+    width: 20rem;
 }
