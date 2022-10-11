@@ -61,8 +61,14 @@ nav {
     left: 10%;
     font-size: 2rem;
 }
-.splash-text h1 {
-    color:red;
-    border: black; 
+
+.company-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.company-name {
+    font-size: 3rem;
+    
+}
