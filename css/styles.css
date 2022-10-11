@@ -57,9 +57,12 @@ nav {
 .splash-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 20%;
+    top: 0;
     left: 10%;
     font-size: 2rem;
+    background-color: aliceblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .company-name-container {
