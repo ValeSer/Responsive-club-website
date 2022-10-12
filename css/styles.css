@@ -4,6 +4,10 @@ header {
     padding: 1rem;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .logo {
     background-image: url(../logo.freetime.png);
     height: 4rem;
@@ -87,8 +91,34 @@ nav {
 }
 
 .mission-text {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    left: 50%;
-    width: 20rem;
+    width: 50%;
 }
+
+.mission-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pic-container {
+    padding: 1rem;
+    
+}
+
+.pic {
+    height: 80%;
+    width: 12rem;
+}
+
+.pic-description {
+    text-align: center;
+    color: darkgreen;
+    font-size: 1.5rem;
+}
+
+.pics-container {
+    display: flex;
+}
+
